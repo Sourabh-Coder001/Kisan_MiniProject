@@ -1,0 +1,9 @@
+.table_width{
+    width: 100% ;
+    
+}
+.list-group-item{
+    font-weight: bold;
+    background: rgb(126,222,205);
+background: linear-gradient(347deg, rgba(126,222,205,1) 56%, rgba(150,216,167,1) 88%);
+}

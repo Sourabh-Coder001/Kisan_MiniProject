@@ -1,0 +1,38 @@
+.Card_name{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.Card-Price{
+  margin: 1.5em 0;
+  color: aquamarine;
+	font-size: 1.2em;
+  font-weight: bold;
+}
+.card-img-top{
+  filter: drop-shadow(1px 1px 3px );
+  
+}
+
+.buy--btn {
+	padding: 10px;
+	border: none;
+	border-radius: 7px;
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 1.3px;
+	color: #fff;
+	background-color: rgb(237, 4, 4);
+	/* box-shadow: 2px 20px 25px -7px rgb(202, 207, 103); */
+	cursor: pointer;
+
+	&:active {
+		transform: scale(0.97);
+	}
+}
+
+.Card_section{
+	margin-left: 2rem;
+	background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
